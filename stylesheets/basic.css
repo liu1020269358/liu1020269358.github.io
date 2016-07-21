@@ -1,0 +1,36 @@
+body{
+    font-family: sansserif;
+}
+.wrapper{
+    background: url(../images/background.jpg);
+    background-color: rgba(0,0,0,0.5);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+header nav{
+    height: 50px;
+    background-color: rgba(0,0,0,0.5);
+}
+nav ul{
+    list-style: none;
+    margin: 0px;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 10px;
+    padding: 0 5px;
+}
+nav ul li a{
+    line-height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+    color: #eee;
+}
+nav ul li.logo{
+    float: left;
+}
