@@ -1,8 +1,9 @@
+
 .banner{
     height: 600px;
 }
 .banner .inner{
-    max-width: 300px;
+    max-width: 600px;
     margin: 0 auto;
     text-align: center;
     position: relative;
@@ -21,17 +22,6 @@
 .banner .inner p i{
     margin-right: 30px;
 }
-/*.banner .inner button{
-    border: none;
-    color: inherit;
-    background-color: #BE4545;
-    padding: 15px;
-    width: 250px;
-    text-align: center;
-    font-weight: bold;
-    word-spacing: 3px;
-    font-size: 19px;
-}*/
 .antecedent-wrapper{
     height: 1000px;
     background-color: #262731;
@@ -200,9 +190,12 @@
     background: -moz-linear-gradient(top, #575757 0px, #575757 46px, #262731 46px);
     background: linear-gradient(to top, #575757 0px, #575757 46px, #262731 46px)
 }
+.demo{
+    background-color: #666;
+}
 .demo section{
     height: 50px;
-    background-color: #666;
+    
 }
 footer{
     height: 200px;

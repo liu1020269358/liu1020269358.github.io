@@ -1,13 +1,33 @@
+@media screen and (min-width: 1200px) {
+    .wrapper{
+        width: 1200px;
+    }
+}
+
 body{
     font-family: sansserif;
 }
-.wrapper{
+.clearfix:after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.clearfix:before{
+    clear: both;
+    display: table;
+    content: "";
+}
+.page{
     background: url(../images/background.jpg);
     background-color: rgba(0,0,0,0.5);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+.wrapper{
+    margin: 0 auto;
+    position: relative;
 }
 header nav{
     height: 50px;
