@@ -3,10 +3,6 @@
         width: 1200px;
     }
 }
-
-body{
-    font-family: sansserif;
-}
 .clearfix:after{
     clear: both;
     display: table;
