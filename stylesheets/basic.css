@@ -18,7 +18,7 @@ body{
     content: "";
 }
 .page{
-    background: url(../images/background.jpg);
+    background: url(../images/back_ground.jpg);
     background-color: rgba(0,0,0,0.5);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -35,6 +35,7 @@ header nav{
 }
 nav ul{
     list-style: none;
+    padding-right: 40px;
     margin: 0px;
     float: right;
 }

@@ -13,18 +13,18 @@
 .banner .inner h1{
     margin: 0;
 }
-.banner .inner p{
+.banner .inner div{
     height: 50px;
     padding: 10px;
     font-size:30px;
-    margin-bottom: 100px;
+    margin: 30px 0 100px 0;
 }
-.banner .inner p i{
+.banner .inner div i{
     margin-right: 30px;
 }
 .antecedent-wrapper{
     height: 1000px;
-    background-color: #262731;
+    background-color: #1b1b1b;
     position: relative;
     text-align: center;
     padding: 50px 0 0 0;
@@ -46,7 +46,7 @@
 .timeline .arrow{
     width: 0px;
     height: 0px;
-    background-color: #262731;
+    background-color: #1b1b1b;
     position: relative;
     border-style: solid;
     border-color: #575757 transparent transparent;
@@ -57,7 +57,7 @@
     display: block;
     position: relative;
     border-style: solid;
-    border-color: #262731 transparent transparent;
+    border-color: #1b1b1b transparent transparent;
     border-width: 10px 5px 0;
     right: 4.5px;
     bottom: 17px;
@@ -89,9 +89,9 @@
 .antecedent .circle{
     width: 26px;
     height: 26px;
-    background-image: -webkit-radial-gradient(#575757 7px,#262731 10px,#C52F2F 12px, #262731 13px );
-    background-image: -moz-radial-gradient(#575757 7px,#262731 10px,#C52F2F 12px, #262731 13px );
-    background-image: radial-gradient(#575757 7px,#262731 10px,#C52F2F 12px, #262731 13px );
+    background-image: -webkit-radial-gradient(#575757 7px,#1b1b1b 10px,#C52F2F 12px, #1b1b1b 13px );
+    background-image: -moz-radial-gradient(#575757 7px,#1b1b1b 10px,#C52F2F 12px, #1b1b1b 13px );
+    background-image: radial-gradient(#575757 7px,#1b1b1b 10px,#C52F2F 12px, #1b1b1b 13px );
 }
 .antecedent:nth-child(2n) .circle{
     float: left;
@@ -166,40 +166,122 @@
     border-radius: 50px; 
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
-    background: -webkit-linear-gradient(top, #575757 0px, #575757 68px, #262731 68px);
-    background: -moz-linear-gradient(top, #575757 0px, #575757 68px, #262731 68px);
-    background: linear-gradient(to top, #575757 0px, #575757 68px, #262731 68px)
+    background: -webkit-linear-gradient(top, #575757 0px, #575757 68px, #1b1b1b 68px);
+    background: -moz-linear-gradient(top, #575757 0px, #575757 68px, #1b1b1b 68px);
+    background: linear-gradient(to top, #575757 0px, #575757 68px, #1b1b1b 68px)
 }
 .html .skill-circle{
-    background: -webkit-linear-gradient(top, #575757 0px, #575757 72px, #262731 73px);
-    background: -moz-linear-gradient(top, #575757 0px, #575757 72px, #262731 73px);
-    background: linear-gradient(to top, #575757 0px, #575757 72px, #262731 73px)
+    background: -webkit-linear-gradient(top, #575757 0px, #575757 72px, #1b1b1b 73px);
+    background: -moz-linear-gradient(top, #575757 0px, #575757 72px, #1b1b1b 73px);
+    background: linear-gradient(to top, #575757 0px, #575757 72px, #1b1b1b 73px)
 }
 .css .skill-circle{
-    background: -webkit-linear-gradient(top, #575757 0px, #575757 57px, #262731 57px);
-    background: -moz-linear-gradient(top, #575757 0px, #575757 57px, #262731 57px);
-    background: linear-gradient(to top, #575757 0px, #575757 57px, #262731 57px)
+    background: -webkit-linear-gradient(top, #575757 0px, #575757 57px, #1b1b1b 57px);
+    background: -moz-linear-gradient(top, #575757 0px, #575757 57px, #1b1b1b 57px);
+    background: linear-gradient(to top, #575757 0px, #575757 57px, #1b1b1b 57px)
 }
 .javascript .skill-circle{
-    background: -webkit-linear-gradient(top, #575757 0px, #575757 62px, #262731 62px);
-    background: -moz-linear-gradient(top, #575757 0px, #575757 62px, #262731 62px);
-    background: linear-gradient(to top, #575757 0px, #575757 62px, #262731 62px)
+    background: -webkit-linear-gradient(top, #575757 0px, #575757 62px, #1b1b1b 62px);
+    background: -moz-linear-gradient(top, #575757 0px, #575757 62px, #1b1b1b 62px);
+    background: linear-gradient(to top, #575757 0px, #575757 62px, #1b1b1b 62px)
 }
-.bootstrap .skill-circle{
-    background: -webkit-linear-gradient(top, #575757 0px, #575757 46px, #262731 56px);
-    background: -moz-linear-gradient(top, #575757 0px, #575757 46px, #262731 46px);
-    background: linear-gradient(to top, #575757 0px, #575757 46px, #262731 46px)
+.jquery .skill-circle{
+    background: -webkit-linear-gradient(top, #575757 0px, #575757 46px, #1b1b1b 56px);
+    background: -moz-linear-gradient(top, #575757 0px, #575757 46px, #1b1b1b 46px);
+    background: linear-gradient(to top, #575757 0px, #575757 46px, #1b1b1b 46px)
 }
 .demo{
-    background-color: #666;
+    background: #1b1b1b;
 }
-.demo section{
-    height: 50px;
-    
+.demo>.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section{
+    color: #d8d0d0;
+    position: relative;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; 
+    -webkit-box-sizing:border-box; 
+    height: 400px;
+    width: 50%;
+    padding: 7%;
+    margin-bottom: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+.section ul{
+    text-align: left;
+
+}
+.section ul li{
+    margin-bottom: 10px;
+}
+#sec-1, #sec-4, #sec-5{
+    background: #22233a;
+}
+#sec-2, #sec-3, #sec-6{
+    background: #322e50;
+}
+.link{
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background: rgba(27,27,27,0.7);
+}
+.link>a{
+    display: inline-block;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; 
+    -webkit-box-sizing:border-box;
+    text-decoration: none;
+    color: #666;
+    width: 50%;
+    height: 100%;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    padding: 10% 0 0 0;
+}
+.demo-link{
+    border-right: 1px solid #666;
+    float: left;
+}
+.source{
+    border-left: 1px solid #666;
+    float: right;
+}
+.demo-link:hover, .source:hover{
+    color: #d8d0d0;
+}
+.return-top{
+    display: none;
+    position: fixed;
+    border: 2px solid #666;
+    color: #666;
+    font-size: 30px;
+    font-weight: 900;
+    vertical-align: middle;
+    text-align: center;
+    right: 20px;
+    bottom: 40px;
+    width: 60px;
+    height: 40px;
+    background: #333;
+}
+.return-top:hover{
+    color: #d8d0d0;
+    border-color: #d8d0d0;
+}
+.return-top:focus{
+    outline: none;
 }
 footer{
     height: 200px;
-    background-color: #181414;
+    background-color: #1b1b1b;
     color: #eee;
 }
 footer ul{
